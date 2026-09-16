@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SUPLERI 31 — Guía de suplementación</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #080808;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+        }
+
+        .contenedor {
+            width: 100%;
+            max-width: 720px;
+            margin: auto;
+        }
+
+        /* =========================
+           PORTADA
+        ========================= */
+
+        .portada {
+            min-height: 100vh;
+            padding: 35px 22px 50px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+        }
+
+        .logo {
+            width: 82%;
+            max-width: 430px;
+            border-radius: 50%;
+            margin-bottom: 35px;
+        }
+
+        .portada h1 {
+            color: #f5b900;
+            font-size: 30px;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+
+        .portada p {
+            color: #dddddd;
+            font-size: 17px;
+            max-width: 500px;
+        }
+
+        .deslizar {
+            margin-top: 45px;
+            color: #f5b900;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+
+        /* =========================
+           CATEGORÍAS
+        ========================= */
+
+        .categoria {
+            padding: 75px 22px;
+            border-top: 1px solid #292929;
+        }
+
+        .titulo {
+            color: #f5b900;
+            font-size: 30px;
+            margin-bottom: 25px;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+
+        .imagen {
+            width: 100%;
+            height: 300px;
+
+            border-radius: 20px;
+            margin-bottom: 28px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #1c1c1c,
+                    #090909
+                );
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 85px;
+        }
+
+        .texto {
+            color: #eeeeee;
+            font-size: 17px;
+            line-height: 1.75;
+        }
+
+
+        /* =========================
+           FINAL
+        ========================= */
+
+        .final {
+            padding: 90px 22px;
+            text-align: center;
+            border-top: 1px solid #292929;
+        }
+
+        .final h2 {
+            color: #f5b900;
+            font-size: 27px;
+            margin-bottom: 18px;
+        }
+
+        .final p {
+            color: #dddddd;
+            font-size: 17px;
+        }
+
+        .marca {
+            margin-top: 40px;
+            color: #f5b900;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+
+
+        /* =========================
+           CELULAR
+        ========================= */
+
+        @media (max-width: 500px) {
+
+            .portada {
+                padding: 25px 18px 45px;
+            }
+
+            .portada h1 {
+                font-size: 25px;
+            }
+
+            .portada p {
+                font-size: 16px;
+            }
+
+            .categoria {
+                padding: 60px 18px;
+            }
+
+            .titulo {
+                font-size: 27px;
+            }
+
+            .imagen {
+                height: 240px;
+            }
+
+            .texto {
+                font-size: 16px;
+                line-height: 1.7;
+            }
+
+            .final {
+                padding: 70px 18px;
+            }
+
+            .final h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+<div class="contenedor">
+
+
+    <!-- =========================
+         PORTADA
+    ========================= -->
+
+    <section class="portada">
+
+        <img
+            src="IMG-20260915-WA0018.jpg"
+            alt="SUPLERI 31"
+            class="logo"
+        >
+
+        <h1>GUÍA DE SUPLEMENTACIÓN</h1>
+
+        <p>
+            Conocé qué hace cada suplemento y para qué se utiliza.
+        </p>
+
+        <div class="deslizar">
+            ↓ DESLIZÁ PARA COMENZAR ↓
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         CREATINA
+    ========================= -->
+
+    <section class="categoria">
+
+        <h2 class="titulo">🏋️ CREATINAS</h2>
+
+        <div class="imagen">
+            🥄
+        </div>
+
+        <p class="texto">
+            La creatina trabaja dentro de las células musculares, aumentando
+            las reservas de fosfocreatina y de agua dentro del músculo. Esto
+            ayuda a disponer de energía rápidamente durante el entrenamiento,
+            permitiendo realizar esfuerzos más intensos y recuperarse mejor
+            entre series, favoreciendo así el crecimiento muscular.
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         PROTEÍNAS
+    ========================= -->
+
+    <section class="categoria">
+
+        <h2 class="titulo">🥤 PROTEÍNAS</h2>
+
+        <div class="imagen">
+            🥤
+        </div>
+
+        <p class="texto">
+            Las proteínas aportan los aminoácidos que los músculos necesitan
+            para recuperarse y crecer. Se encuentran naturalmente en alimentos
+            como pollo, pescado, carne y huevo. Este suplemento se utiliza
+            principalmente después del entrenamiento y permite alcanzar de
+            forma sencilla nuestra cantidad diaria de proteína, sin sumar
+            demasiadas calorías.
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         ENERGÍA
+    ========================= -->
+
+    <section class="categoria">
+
+        <h2 class="titulo">⚡ ENERGÍA Y ENTRENAMIENTO.</h2>
+
+        <div class="imagen">
+            ⚡
+        </div>
+
+        <p class="texto">
+            Son suplementos que ayudan a llegar al entrenamiento con más energía
+            y concentración, y a mantener un buen rendimiento durante el
+            ejercicio. Se utilizan principalmente antes de entrenar, cuando
+            buscamos un impulso extra para aprovechar mejor la sesión.
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         OMEGA 3
+    ========================= -->
+
+    <section class="categoria">
+
+        <h2 class="titulo">🐟 OMEGA 3</h2>
+
+        <div class="imagen">
+            🐟
+        </div>
+
+        <p class="texto">
+            El Omega 3 aporta grasas esenciales que participan en el
+            funcionamiento del corazón, el cerebro y otras funciones del
+            organismo. Se encuentra principalmente en pescados y mariscos,
+            y puede suplementarse cuando no consumimos suficiente pescado
+            en nuestra alimentación.
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         COLÁGENO
+    ========================= -->
+
+    <section class="categoria">
+
+        <h2 class="titulo">🦴 COLÁGENO</h2>
+
+        <div class="imagen">
+            🦴
+        </div>
+
+        <p class="texto">
+            El colágeno es una proteína fundamental para la estructura y
+            resistencia de la piel, huesos, tendones y articulaciones.
+            Con el paso de los años, nuestro cuerpo produce menos colágeno,
+            por lo que suplementarlo aporta los aminoácidos necesarios para
+            producir y mantener estos tejidos.
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         ALIMENTACIÓN
+    ========================= -->
+
+    <section class="categoria">
+
+        <h2 class="titulo">🍫 ALIMENTACIÓN</h2>
+
+        <div class="imagen">
+            🍫
+        </div>
+
+        <p class="texto">
+            Son productos pensados para complementar nuestra alimentación
+            de forma práctica y disfrutar opciones ricas mientras cuidamos
+            nuestro aporte de nutrientes. Incluye snacks, barras, pancakes,
+            productos para aumentar el aporte de calorías y otras opciones
+            para acompañar distintos objetivos.
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         VITAMINAS
+    ========================= -->
+
+    <section class="categoria">
+
+        <h2 class="titulo">🧂 VITAMINAS Y MINERALES</h2>
+
+        <div class="imagen">
+            💊
+        </div>
+
+        <p class="texto">
+            Las vitaminas y minerales son pequeños nutrientes que nuestro
+            cuerpo necesita todos los días para funcionar correctamente.
+            Se encuentran en muchos alimentos y pueden suplementarse cuando
+            nuestra alimentación no aporta la cantidad necesaria. Algunos
+            de ellos incluso participan en funciones relacionadas con la
+            relajación y el descanso.
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         AMINOÁCIDOS
+    ========================= -->
+
+    <section class="categoria">
+
+        <h2 class="titulo">🧬 AMINOÁCIDOS Y OTROS</h2>
+
+        <div class="imagen">
+            🧬
+        </div>
+
+        <p class="texto">
+            Los aminoácidos son los componentes que nuestro cuerpo utiliza
+            para formar proteínas y reparar tejidos. Algunos suplementos
+            aportan aminoácidos específicos que pueden acompañar la
+            recuperación y el entrenamiento, según las necesidades de
+            cada persona.
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         FINAL
+    ========================= -->
+
+    <section class="final">
+
+        <h2>¿QUERÉS SABER QUÉ TENEMOS DISPONIBLE?</h2>
+
+        <p>
+            Consultá con SUPLERI 31 para conocer los productos disponibles
+            y encontrar la opción adecuada para vos.
+        </p>
+
+        <div class="marca">
+            SUPLERI 31
+        </div>
+
+    </section>
+
+
+</div>
+
+</body>
+</html>
